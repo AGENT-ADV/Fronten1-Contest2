@@ -32,7 +32,9 @@ body {
 .box2 img{
     border-radius: 100000px;
 }
-
+.photo_name{
+    font-size: 24px;
+}
 .box3{
     grid-row: 2/5;
     grid-column: 2/3;
@@ -97,27 +99,24 @@ input{
 .container{
     display: grid;
     grid-template-columns: auto;
-    color: white;
-    margin-top: 19px;
-    margin-left: 22px;
-    margin-right: 23px;
-    margin-bottom: 37px;
+    color:white;
+    margin: 5px;
 }
 .container > div{
     border : 2px solid #808080;
     border-radius: 20px;
-    padding: 20px;
+    padding: 18px;
     margin: 10px;
 }
 
 .box1{
-    font-size: 27px;
+    font-size: 20px;
     text-align: center;
 }
 .box2{
     display: flex;
     flex-flow: column wrap;
-    row-gap: 25px;
+    row-gap: 15px;
     align-items: center;
 }
 .box2 img{
@@ -133,13 +132,13 @@ input{
 }
 .box3 table{
     border : 2px solid #808080;
-    font-size: 20px;
+    font-size: 16px;
     color: #808080;
     border-radius: 20px;
     
 }
 .box3 div{
-    font-size: 22px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 
@@ -154,8 +153,8 @@ td:nth-child(2){
     text-align: center;
 }
 .box4 ul{
-    font-size: 20px;
-    padding-left: 20px;
+    font-size: 14px;
+    padding-left: 16px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -164,7 +163,7 @@ td:nth-child(2){
 }
 
 .box5{
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
