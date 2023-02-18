@@ -1,6 +1,7 @@
 body {
     background-color: #111111;
 }
+@media (min-width: 640px){ 
 .container{
     display: grid;
     grid-template-columns: 550px auto;
@@ -90,5 +91,97 @@ input{
     width: 22px;
     accent-color:green;
 }
+}
+/*first media query ends*/
+@media (max-width: 639px){
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    color: white;
+    margin-top: 19px;
+    margin-left: 22px;
+    margin-right: 23px;
+    margin-bottom: 37px;
+}
+.container > div{
+    border : 2px solid #808080;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
 
+.box1{
+    font-size: 27px;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 25px;
+    align-items: center;
+}
+.box2 img{
+    border-radius: 100000px;
+}
 
+.box3{
+    border-style: none;
+    grid-row: 5/6;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.box3 table{
+    border : 2px solid #808080;
+    font-size: 20px;
+    color: #808080;
+    border-radius: 20px;
+    
+}
+.box3 div{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+td,th{
+   background-color: black;
+   border-radius: 25px;
+}
+th,td{
+    text-align: center;
+}
+td:nth-child(2){
+    text-align: center;
+}
+.box4 ul{
+    font-size: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    
+}
+
+.box5{
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+.box5 div{
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+.box5 a{
+    color : #808080;
+    text-decoration: none;
+}
+input{
+    height: 22px;
+    width: 22px;
+    accent-color:green;
+}
+
+}
