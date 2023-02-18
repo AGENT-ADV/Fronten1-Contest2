@@ -92,9 +92,14 @@ input{
     height: 22px;
     width: 22px;
     accent-color:green;
+    cursor: pointer;
 }
 }
+
+
 /*first media query ends*/
+
+
 @media (max-width: 639px){
 .container{
     display: grid;
@@ -181,6 +186,6 @@ input{
     height: 22px;
     width: 22px;
     accent-color:green;
+    cursor: pointer; 
 }
-
 }
